@@ -1,0 +1,179 @@
+body{
+    font-family: 'Montserrat';
+    text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6{
+   font-family: serif;
+}
+
+p{
+    color: #8f8f8f;
+}
+/*-----------------------------------Section Color----------------------------*/
+.colored-section{
+    background-color: #92647e;
+    color: #fff;
+}
+
+.light-section{
+    background-color: #eee4e9;
+    
+}
+
+/*---------------------------------Headings--------------------------------------*/
+
+.big-heading{   
+    font-size: 3.5rem;
+    line-height: 1.5;
+
+}
+/*other sections heading*/
+.section-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/*--------------------------------------Containers----------------------------------*/
+.container-fluid{
+    padding: 7% 15%;
+    
+}
+
+
+
+/*----------------------------------Title--------------------------------*/
+
+
+#title{
+    text-align: left;
+}
+
+#title .container-fluid{
+    padding: 3% 15%;
+}
+
+
+
+
+/* Navigation bar */
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.navbar-brand{
+    font-family: 'Marck Script';
+    font-size: 3rem;
+    font-weight: bold;
+
+}
+.nav-item{
+    padding: 0 10px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+
+/* download-button */
+
+.download-btn{
+    margin: 5% 3% 4% 0;
+}
+
+
+/* title-image */
+.title-img{
+    width: 85%;
+    border-radius: 5%;
+    position: relative;
+    
+}
+
+
+
+/* ---------------------------------features-Container----------------------------- */
+
+
+.feature-box {
+    
+    padding: 5%;
+}
+
+.feature-icon{
+    color: #ce9fb9;
+    margin-bottom: 1.5rem;
+}
+
+.feature-box:hover {
+    transform: scale(1.1);
+    transition-delay: 0.1s;
+}
+
+.feature-box:hover .feature-icon{
+    color: #92647e;
+}
+
+
+
+/* ---------------------------Testomonial-section----------------------------------- */
+
+#testimonials{    
+    background-color: #ce9fb9;
+}
+
+.testimonial-img{
+    width: 17%;
+    border-radius: 100%;
+    margin: 5%;
+}
+
+
+
+
+
+/* ------------------------------Press-section---------------------------------- */
+
+#press{
+    background-color: #ce9fb9;
+    
+    padding-bottom: 3%;
+
+}
+
+.press-img{
+    width: 15%;
+    margin: 2%;
+}
+
+/*----------------------------- Pricing-section --------------------------------------*/
+
+
+#pricing{
+    
+    padding: 8% 8%;
+    
+}
+
+.pricing-card{
+    padding: 3% 2%;
+}
+
+
+/*------------------------------------ Footer Section--------------------------------------*/
+
+.footer-icon{
+    margin: 2%;
+}
+
+
+
+/* Media query breakpoint */
+
+@media (max-width: 991px){
+
+#title{
+    text-align: center;
+}  
+
+}
